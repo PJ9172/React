@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Form.css'
 export default function Form() {
-    const [user, setUser] = useState({ firstName: "", lastName: "", email: "", password: "" })
+    const [user, setUser] = useState({ firstName: "",lastName: "", email: "", password: "" })
     return (
         <>
             <center>
