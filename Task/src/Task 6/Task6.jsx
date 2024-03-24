@@ -18,7 +18,7 @@ export default function Task6(){
                 <div className="row">
                     {num.map((ele,index)=>{
                        return( 
-                       <div className="value" key={index}>
+                       <div className="box" key={index}>
                             <p>{ele}</p>
                         </div>
                     );
